@@ -92,7 +92,7 @@ In such process, we have the following techniques to do so:
           
 3. Expressiveness of one language. (Prototype friendly language)
      What is the best general domain language? A language that describes anything or everything? Is coming from five sense (visual, auditoral, smell, taste, or touch?) 
-     We have touched on some visual for example: statstics analysis. audtiroal: speech recognition / musical. smell: aroma. taste: food. and touch: skin or smart phone.)
+     We have touched on some visual for example: statstics analysis, letters, painting. audtiroal: speech recognition / musical. smell: aroma. taste: food. and touch: scuplture, skin or smart devices.)
     
     However they don't preceipt and organize and influent the world around us that the creativty speaks at is fullest expressivness yet.
     There is many opportunity for the connetivity of all such information and manipulation in a way that is easy and manageable for one to create, change and even destory. :)
