@@ -1,0 +1,99 @@
+What types of programmer are you?
+In traditional sense, we have compiled language, dynamic language, and functional language.
+
+a simple case would be:
+static main(){printf("hello world");}
+For c this needed to be compiled.
+
+printf("hello world"); 
+For php this will run by calling php printf("hello world"); or using interactive command prompt.
+
+for functional language:
+main = putStrLn "Hello World!" 
+in haskell.
+select "hello world" 
+in SQL.
+
+As a programmer, there is different level of complexity in execute the same process.
+For C the entire process involves, 
+    creating a file & naming it "".
+    type in the code
+    compiling it with a compile.
+    execute the compiled executable. 
+
+For PHP:
+   creating a file & naming it "".
+   type in the code
+   execute the interpeter with the file name.
+   ---- or
+   turn on the interactive shell
+   type in the code and execute it
+   
+For Haskell:
+  turn on the interactive shell
+  type in the code and execute it.
+  ---- or
+  creating a file & naming it "".
+  type in the code
+  execute the ghc file.
+  
+For SQL / NoSQL:
+  type in the code
+  execute it in a gui.
+  ---- or 
+  setup a connection in another programming language
+  type in the code
+  execute it and wait for it to return the result back to the host language. 
+  ---- or
+  use interactive shell (client)
+  and execute the command.
+  
+To deal with data, often the steps describe above followed. What's essential for a programmer is the ability to 
+ 1. Quickly produce a working solution.
+ 2. Able to follow at the minimal it's own code.
+
+As time progresses the only criteras become crucial:
+ 1. How adoptable is the existing solution that can turn into a workable new solution.
+ 2. Still be able to follow by at the minmal the creators own understanding.
+
+For cosematic solutions (i.e. logical grouping, reusability at a software level) we can consider:
+ 1. How representable it is for the code to understandable by the others.
+
+Issues that arise when consider cosmeatic route:
+ 1. Is still be optimial and efficent after applying the cosmetic solution. 
+
+To reduce all the concerns, this writing is motivated in optimize the ability to be able write workable solution.
+In such process, we have the following techniques to do so:
+1. Inspect/Modify outputs, changes and inputs. In this paradigm, we can spawn off the following products: 
+   1. Generic Input (i.e. A list of domain specific or specialize, testable input, and chaotic random data)
+   2. Correlated data between Input and Output (i.e. 1+1=2, the relationship under Add function in a Decimial System for integer value 1 and 1 will yield 2)
+   3. The Change that can occur during any course of the computing environment. 
+        (i.e. Input 1 no longer is 1; 
+               Addition no longer is Addition, instead Addition become 1/0 + 1 were Division is induced in the process of computing; 
+               This also leads to the consideration of incompatibility issues induced by the change, or simply side-effect.
+        )
+   4. The tracability that induced the change including by not limited to the specified Input or newly added Input, And the Algorhtmic process by the Change.
+      Such tracability can be considered to built into a programming language. so that there is an option to change the course of the program, by being part of the change.
+      An actual appication whould be: checking the execution time of a function call and dynamically route to a cheaper function call. use Thread.wait to let the CPU reset after heavy computation for better heat dicpation. All those issues that seem trivia when mechnical advancement turn software optimization become obsolete might see its light in a different application . 
+2. Partially in Computing and Creation process. (e.g. interactive prompt shell).
+    Debugging tool and Interactive Prompt shell, and Version Control are commonly used in the process of construct a complete solutions.
+    However, not all language are created equal for example "select * from example [sql]", "[a,b,c].map((it)=>console.log(it)) [javascript]", "for (int i=0;i<10;i++,printf("%d",i)); [c]" each yields different outcome in the process of debugging and the point of inception.
+     For, SQL the language isolated the scope to be SELECT and FROM, Current feature of the language may be abel to call halt or even revert changes if is in a transaction.
+     For, JavaScript it isolated the scope of map to "it" and performed map IO and converting of the type performed. New scope may induce within the level of "map"
+     For, C while i being changed, however it allow a higher degree of flexibility and many more chooses i.e.
+           for (var i=0;i<10;i+=2,i*=2,i/=0);
+           or for(var i=j=0,i<10;i+=1,...)
+           This variability is a blessing for creativity and expressiveness. however, also allow room for managing many scope from the keyword "FOR". 
+     
+     In Human-Partcipated Computing: 
+     FOR SQL, one may added more content to the SELECT and FROM in SQL. 
+     For JavaScript, one may chain with map().reduce.filter() with algorithm in each chain process.
+     For C, one may induce the (initialization, halt condition, and algorithm in the step).
+          
+3. Expressiveness of one language. (Prototype friendly language)
+     What is the best general domain language? A language that describes anything or everything? Is coming from five sense (visual, auditoral, smell, taste, or touch?) 
+     We have touched on some visual for example: statstics analysis. audtiroal: speech recognition / musical. smell: aroma. taste: food. and touch: skin or smart phone.)
+    
+    However they don't preceipt and organize and influent the world around us that the creativty speaks at is fullest expressivness yet.
+    There is many opportunity for the connetivity of all such information and manipulation in a way that is easy and manageable for one to create, change and even destory. :)
+
