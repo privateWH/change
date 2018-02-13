@@ -18,6 +18,6 @@ A stepwise modeling might needed.
  6. Start up time. 
  7. Accessibility, How quickly you can access to the dev environment.
  8. The language in which support to do something. i.e. modify text and released once. now, small changes that are hard to batch need to reapplied over dozens of file. 
-      Grep pattern over all scopped env.
+      Grep pattern over all scopped env. (Grep for 1, then multiple back to critera 1).
       Batch change with maps of (1,2,3,4) with respect to the greped result.
       
