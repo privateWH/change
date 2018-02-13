@@ -5,3 +5,5 @@ However, cases such as
 
 if (x<5 && x>0) change can't occur. doesn't work well in describing in calculus.
 A stepwise modeling might needed.
+ 
+ The use of this language is in the gap in which data might not exists; hence, gap in rate of change.
