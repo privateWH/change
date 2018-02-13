@@ -7,3 +7,11 @@ if (x<5 && x>0) change can't occur. doesn't work well in describing in calculus.
 A stepwise modeling might needed.
  
  The use of this language is in the gap in which data might not exists; hence, gap in rate of change.
+ 
+ 
+ Criteria of good development environment:
+ 1. Good data visualization, test data for prototyping.
+ 2. Add generator to language
+ 3. close to runtime envirionment.
+ 4. Quick turn around recover for testing.
+ 5. between op and dev changes.
