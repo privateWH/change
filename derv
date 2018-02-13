@@ -13,7 +13,7 @@ A stepwise modeling might needed.
  1. Good data visualization, test data for prototyping.
  2. Add generator to language
  3. close to runtime envirionment.
- 4. Quick turn around recover for testing.
+ 4. Quick turn around recover during testing.
  5. between op and dev changes.
  6. Start up time. 
  7. Accessibility, How quickly you can access to the dev environment.
