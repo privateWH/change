@@ -1,0 +1,7 @@
+Limitation research:
+
+basic derivitives works well. for change in one variable.
+However, cases such as
+
+if (x<5 && x>0) change can't occur. doesn't work well in describing in calculus.
+A stepwise modeling might needed.
