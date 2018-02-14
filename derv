@@ -21,3 +21,11 @@ A stepwise modeling might needed.
       Grep pattern over all scopped env. (Grep for 1, then multiple back to critera 1).
       Batch change with maps of (1,2,3,4) with respect to the greped result.
       
+
+--------------
+Limit String in RegEx:
+For example: <a>test <a> string</a> </a>
+Interested in greping <a> string</a>
+The method of interst string length chucking prior to regex. say 12-15 characters, then apply pattern <a>(.*?)</a>.
+This might avoid <a>test <a> string</a>
+One can argue there is easier way to search the interested group by <a> string</a>
