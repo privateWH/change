@@ -1,0 +1,22 @@
+between, retrive, set.
+f(local b){
+   global a;
+   local b;
+}
+seq_1(){
+   store(global a)_in_session;
+}
+seq_2(){
+   retrive(global a)_in_session_set_as_(local c);
+   local d = (globla a)_some_value(e);
+   
+}
+
+
+store key value info in db..
+just have ui all occurred in screen, when is done, send all info to server in one trip.
+
+Team:
+Adding value by implementing tool to benefit all.
+team retrospective meeting. To share knowledge and share things that are done to prevent reinventing the wheel.
+The strength and skill set needs time to explorer. beginning, mid, and long. each takes time to explorer. and people assessing it at the rate of work. rather at an specified interval.
