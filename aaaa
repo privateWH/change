@@ -7,9 +7,30 @@ seq_1(){
    store(global a)_in_session;
 }
 seq_2(){
-   retrive(global a)_in_session_set_as_(local c);
-   local d = (globla a)_some_value(e);
+   retrive(global a)_from_session_set_as(local b);
+   hold(global a)_in_current_context;
+   swap_some_value_in(global a)with_some_value_in(local b);
+   // the presences leads to set, unset when swapping between global and local;
    
+   	if (isset($_POST['orderItems'])){
+			$curr =  $_POST['orderItems'];
+		}
+		if(isset($post)){
+			if (isset($post['orderItems'])){
+				$_POST['orderItems'] = $post['orderItems'];
+			} else {
+				unset ($_POST['orderItems']); //This is catchy in logic very hard to find if didn't notice it
+			}
+			$result = $ksdk->importOrder($post);
+		};
+		if ($curr !== null){
+			$_POST['orderItems'] = $curr;
+		} else {
+			unset ($_POST['orderItems']); // This is similar with tenary operator. 
+		}
+		if (!isset($_POST['acceptUpsell']) || (isset($_POST['acceptUpsell']) &&$_POST['acceptUpsell'] === 'true'))
+			$result = $ksdk->importUpsale($_POST);
+
 }
 
 
