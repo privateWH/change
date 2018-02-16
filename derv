@@ -29,3 +29,13 @@ Interested in greping <a> string</a>
 The method of interst string length chucking prior to regex. say 12-15 characters, then apply pattern <a>(.*?)</a>.
 This might avoid <a>test <a> string</a>
 One can argue there is easier way to search the interested group by <a> string</a>
+
+
+
+-------------
+Limits in Dated Record
+Suppose: work is done on 01/01/2018, Directory contains projectA and ProjectB
+Work completed in 01/01/2018 is projectA. however, projectB is put on hold until 01/10/2018.
+In this case the directory structure for 01/01/2018 with timestamp becomes obsolete and induce many issue.
+One argue, symbolic link created in 01/10/2018. so that the solution become 01/10/2018/projectB.
+This work still contains limitation in space occupation and indirect access issue.
