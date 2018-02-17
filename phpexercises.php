@@ -21,5 +21,7 @@ array_diff($a,$b,$c);
 
 scope(keys meant to be data);
 promote keys into global, the space in which universe operates;
-grab some function from the universe and make the key part, by reflection how key operates in the universe can crosscut the universe by using annotation where external parts influences the universe,
+grab some function from the universe and make the key part, (**)by reflection how key operates in the universe can crosscut the universe by using annotation where external parts influences the universe,
 of the universe in which operates;
+
+(**) This was a second time look of the sentences, and thought of possible inception and induced.
