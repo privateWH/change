@@ -1,0 +1,16 @@
+The concept of safe in computing always fastinating me.
+
+In earlier time, I thought of between function calls, you never know if the CPU might screwup in even tinniest bit say if(true==a){//do}
+so that there is a lot of code just for say f(a){if(true==a){//doo}} then between f(b){if (true==a && otherCondition) {//doo}}
+
+Now, when work with data, I don't know why I always want to have control over the keys presented in the data
+and now I know. because I am not only concern that the data structure is ill, I also want to be able to have a grib on that key to generate some code.
+
+Working DAO, a tones of time spend on transformation. I feel like wasted so much time doing that. for that crosscut for modeling.
+It should be automated, but I wasn't sure what was going on, or how to do.. but I can tell the variable in which I am operated on should be programmable. like the C pointer.
+but not the pointer, because it works within the programming language. and not the language in which data and programming operated at the same time.
+
+I want to be able program a little, gather some data, convert data to generate more code. this process, should be harmonized and effortless.
+Now, I am actually having first working reflection code that does not exactly what I want..
+
+Once a guy ask, why you have to use reflection? you got OO already. I don't know, I feel like programming is about reflection and not about programming.
