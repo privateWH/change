@@ -21,7 +21,29 @@ array_diff($a,$b,$c);
 
 scope(keys meant to be data);
 promote keys into global, the space in which universe operates;
-grab some function from the universe and make the key part, (**)by reflection how key operates in the universe can crosscut the universe by using annotation where external parts influences the universe,
+*** grab some function from the universe and make the key part, (**)by reflection how key operates in the universe can crosscut the universe by using annotation where external parts influences the universe,
 of the universe in which operates;
 
 (**) This was a second time look of the sentences, and thought of possible inception and induced.
+
+
+----- solution 1
+
+$d=['a'=>[1,2,3],'b'=>[1,2],'c'=>[1]];
+$refFunc = new ReflectionFunction('array_diff');
+$values = array_values($d);
+var_dump($refFunc->invokeArgs($values));
+
+The actual code that make it work is.
+
+-----
+*** looking at the solution 1, in conjunction with making the key part, php can run the code like this
+array_diff($a,$b,$c);
+It will work nice if was in a template language. or Language within Language.
+$d=['a'=>[1,2,3],'b'=>[1,2],'c'=>[1]];
+$scope = wrap(extract($d));
+HighReflect{
+   $refFunc = new ReflectionFunction('array_diff');
+   var_dump($refFunc->invokeArgs($scope));
+}
+This way, I am treating the calling of the function as its parameter key rather as its value.
