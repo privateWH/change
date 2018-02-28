@@ -11,3 +11,10 @@ GC consider: States, Timing, Space, User Experience, Cost and Effective.
 Garbage sometimes isn't garbage, sometime is.. like Natural Language, or things that we do.
 Collector: the creator of States, maintains time information and pointers to spaces. Influences by UE, and CE. 
 
+Second time around from the bathroom:
+If we can have simple "mass detect" device, through a laser like near the bathroom fan.
+If the change in volume decreases overtime, eventually backdown to normal level, we can conclude the oder is gone.
+If the change doesn't decrease overtime and the fan is operated at max level up to certain time threshold, implies either 1 new state is defined or just still busy with work.
+But the point is goes around the need to detect odor and focus on nuturalize the particles in the room. Either smoke, or whatever.
+
+
