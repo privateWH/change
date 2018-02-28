@@ -1,0 +1,13 @@
+Feces odor are... unpleasant in normal stands. but we consume a lot air fresher for it.
+If we can have a device that detect just specific set of smell generate by the Feces then maybe we can automatically crank up the fan that sucking out of the smell of feces.
+I am also consider Feces a similar game programming language works, specfiically, Garbage Collection (GC).
+GC in many ways are automated. Only few instance, where I have to dealt with during programming, i.e. programming in C/C++ or Objective-C.
+I use it when learning data structure or algorithm from scratch. Which I was aiming for clean expression, and high performances as the end goal.
+But in real life application, I solely do GC. I got endless tabs open in Browser for research one subject and kept it open.
+I also, leave things where it works and don't changes it, so I can always go back to where I have left off.
+Put another complication, sometimes my family cleans an area, and I never able to get back to last known state of things were.
+So from this example, it shows.
+GC consider: States, Timing, Space, User Experience, Cost and Effective.
+Garbage sometimes isn't garbage, sometime is.. like Natural Language, or things that we do.
+Collector: the creator of States, maintains time information and pointers to spaces. Influences by UE, and CE. 
+
