@@ -16,5 +16,6 @@ If we can have simple "mass detect" device, through a laser like near the bathro
 If the change in volume decreases overtime, eventually backdown to normal level, we can conclude the oder is gone.
 If the change doesn't decrease overtime and the fan is operated at max level up to certain time threshold, implies either 1 new state is defined or just still busy with work.
 But the point is goes around the need to detect odor and focus on nuturalize the particles in the room. Either smoke, or whatever.
-
+* Side notes, in between work of the fan, there might be small bumps in changes for example: a person do work in the room. When he defecate, the change will ramp up slowly, should the change to suck air instantenosuly at a max speed? 
+* The site note is the idea that it need to circle back to the information held in the room. In fact, we can capture some textural representation of the Odor without knowing where to start with.  
 
