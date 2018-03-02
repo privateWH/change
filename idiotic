@@ -1,0 +1,7 @@
+hover event on jquery.
+can't be emulate on javascript.
+you can try $('a').trigger('mouseover')
+
+$('.imgHoverable').unbind('hover').on('click',function(e){var that=this;$('.imgHoverable').each(function(it){var hoverImg = NormalImgOf($(this).attr("src"));$(this).attr("src",hoverImg);});$(that).attr("src",HoverImgOf($(that).attr("src")));})
+
+And I forgot to call $('defaultSelected').click();
