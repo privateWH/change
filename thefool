@@ -12,7 +12,7 @@ The fundamental User Error.
     (Line 1) Text for existing sale, and ID
     (Line 2) Adding new Book Sale. 
      Misinterpret the context in line 1 where Id is ignored and (associating Line 2 with contents from Text for existing sale).
-4. Insert Content a to Text B in between Line 2 and Line 3, Its better to show Before Text, and After Text.
+4. Insert Content a to Text B in between Line 2 and Line 3, Its better to show Before Text, and After Text. Unless want to detect change.
 
      
 To undertand why is hard, because I don't know what really happen execept knowing is wrong afterward.
