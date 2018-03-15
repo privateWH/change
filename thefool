@@ -8,7 +8,13 @@ The fool of system.
 The fundamental User Error.
 1. I reverse my car everyday, and one day I scratch one.
 2. I read cards everyday, and soledomly get the context wrong completely.
+3. Possible errors. 
+    (Line 1) Text for existing sale, and ID
+    (Line 2) Adding new Book Sale. 
+     Misinterpret the context in line 1 where Id is ignored and (associating Line 2 with contents from Text for existing sale).
+4. Insert Content a to Text B in between Line 2 and Line 3, Its better to show Before Text, and After Text.
 
+     
 To undertand why is hard, because I don't know what really happen execept knowing is wrong afterward.
 1. Not enough of sleep.
 2. Try to improve the process of doing work, while doing work.
