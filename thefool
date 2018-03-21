@@ -13,7 +13,7 @@ The fundamental User Error.
     (Line 2) Adding new Book Sale. 
      Misinterpret the context in line 1 where Id is ignored and (associating Line 2 with contents from Text for existing sale).
 4. Insert Content a to Text B in between Line 2 and Line 3, Its better to show Before Text, and After Text. Unless want to detect change.
-
+5. The turning nob. to zoom in you turn the nob, some people may not notice continuous turn implies going in one direction. if you can turn the nob in both direction. in common household, those are the best metaphor and stratrgy to implement user centric tools
      
 To undertand why is hard, because I don't know what really happen execept knowing is wrong afterward.
 1. Not enough of sleep.
